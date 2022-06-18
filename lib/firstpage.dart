@@ -16,12 +16,12 @@ class _FirstPageState extends State<FirstPage> {
       backgroundColor: const Color(0xff1A1A1A),
       body: Center(
         child: InkWell(
-          onTap: (){Navigator.push(context, MaterialPageRoute(builder: (context)=> SecondPage()));},
+          onTap: (){Navigator.push(context, MaterialPageRoute(builder: (context)=> const SecondPage()));},
           child: const Text('H',
             style: TextStyle(
               color: Colors.yellow,
               fontFamily: 'Pacifico',
-              fontSize: 90.0
+              fontSize: 67.0
             ),
           ),
         ),
